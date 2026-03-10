@@ -12,7 +12,7 @@ function MainLayout() {
         <Link to="/">
           <img
             className="site-header__logo"
-            src="/institutoAurora/images/logo/logo_header.png" // <-- coloque aqui o caminho da sua nova logo
+            src="/instituto-aurora-website/images/logo/logo_header.png" // <-- coloque aqui o caminho da sua nova logo
             alt="Logo Clínica Saúde Integral"
           />
         </Link>

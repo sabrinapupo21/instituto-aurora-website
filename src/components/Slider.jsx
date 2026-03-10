@@ -4,37 +4,38 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 const slidesData = [
   {
-    imgSrc: "/institutoAurora/images/servicos/areasDeOcupacao/psiquiatria.webp",
+    imgSrc:
+      "/instituto-aurora-website/images/servicos/areasDeOcupacao/psiquiatria.webp",
     title: "Psiquiatria",
     posicao: "center 50%",
   },
   {
     imgSrc:
-      "/institutoAurora/images/servicos/areasDeOcupacao/terapiaOcupacional.webp",
+      "/instituto-aurora-website/images/servicos/areasDeOcupacao/terapiaOcupacional.webp",
     title: "Terapia Ocupacional",
     posicao: "center 65%",
   },
   {
     imgSrc:
-      "/institutoAurora/images/servicos/areasDeOcupacao/psicoterapia.webp",
+      "/instituto-aurora-website/images/servicos/areasDeOcupacao/psicoterapia.webp",
     title: "Psicoterapia",
     posicao: "center 50%",
   },
   {
     imgSrc:
-      "/institutoAurora/images/servicos/areasDeOcupacao/integracaoSensorial.webp",
+      "/instituto-aurora-website/images/servicos/areasDeOcupacao/integracaoSensorial.webp",
     title: "Integração Sensorial",
     posicao: "center 70%",
   },
   {
     imgSrc:
-      "/institutoAurora/images/servicos/areasDeOcupacao/psiquiatriaInfantil.webp",
+      "/instituto-aurora-website/images/servicos/areasDeOcupacao/psiquiatriaInfantil.webp",
     title: "Psiquiatria da Infância e Adolescência",
     posicao: "center 50%",
   },
   {
     imgSrc:
-      "/institutoAurora/images/servicos/areasDeOcupacao/neuropsicologia.webp",
+      "/instituto-aurora-website/images/servicos/areasDeOcupacao/neuropsicologia.webp",
     title: "Avaliação Neuropsicológica",
     posicao: "center 71%",
   },

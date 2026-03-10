@@ -1,8 +1,9 @@
 {
-  "name": "health-care",
+  "name": "instituto-aurora-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sabrinapupo21.github.io/instituto-aurora-website",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",

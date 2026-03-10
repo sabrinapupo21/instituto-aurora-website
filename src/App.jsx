@@ -11,7 +11,7 @@ import Contato from "./pages/Contato";
 function App() {
   return (
     <>
-      <Router basename="/institutoAurora">
+      <Router basename="/instituto-aurora-website">
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />

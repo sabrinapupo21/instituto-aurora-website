@@ -149,7 +149,7 @@ function NossaEquipe() {
 
         <img
           className="rodrigo-pic"
-          src="/institutoAurora/images/equipe/coordenador.webp"
+          src="/instituto-aurora-website/images/equipe/coordenador.webp"
           alt="Rodrigo Affonseca Bressan"
           loading="lazy"
         />
@@ -161,7 +161,7 @@ function NossaEquipe() {
           <div className="grid-item" key={membro.nome}>
             <div className="grid-pic">
               <img
-                src={`/institutoAurora/images/equipe/pessoa-${String(index + 1)}.webp`}
+                src={`/instituto-aurora-website/images/equipe/pessoa-${String(index + 1)}.webp`}
                 alt={membro.nome}
                 loading="lazy"
                 decoding="async"

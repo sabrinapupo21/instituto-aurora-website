@@ -61,7 +61,7 @@
 .hero {
   position: relative;
 
-  background-image: url("/institutoAurora/images/home/waitingRoom.webp");
+  background-image: url("/instituto-aurora-website/images/home/waitingRoom.webp");
 
   min-height: 325.89px;
 
@@ -550,7 +550,7 @@ address {
 .servicos-hero {
   position: relative;
 
-  background-image: url("/institutoAurora/images/servicos/holdingHands.webp");
+  background-image: url("/instituto-aurora-website/images/servicos/holdingHands.webp");
 
   min-height: 325.89px;
 

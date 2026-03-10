@@ -8,7 +8,7 @@ function SobreNos() {
       <section className="apresentation">
         <img
           className="fotoEquipe"
-          src="/institutoAurora/images/equipe/equipeCompleta.webp"
+          src="/instituto-aurora-website/images/equipe/equipeCompleta.webp"
         />
         <div className="foto-overlay">
           <span>Unidos pelo propósito de oferecer o bem-estar mental</span>
@@ -44,7 +44,7 @@ function SobreNos() {
           <div className="atendimentos-img">
             <img
               alt="Uma sala de atendimento da clínica"
-              src="/institutoAurora/images/sobreNos/waitingRoom.webp"
+              src="/instituto-aurora-website/images/sobreNos/waitingRoom.webp"
             />
           </div>
         </div>
