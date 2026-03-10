@@ -1,86 +1,86 @@
-# Instituto Aurora — Website (Projeto de Estudo)
+# Instituto Aurora — Website (Study Project)
 
-Este projeto é um **clone educacional de um site institucional de clínica de saúde mental**, desenvolvido com o objetivo de **praticar desenvolvimento front-end moderno** e arquitetura de aplicações web.
+This project is an **educational clone of an institutional mental health clinic website**, developed with the goal of **practicing modern front-end development** and web application architecture.
 
-A identidade visual e o layout foram utilizados como referência de estudo, porém **todos os dados sensíveis foram completamente alterados**
+The visual identity and layout were used as a reference for study purposes, however **all sensitive data has been completely changed**.
 
-Todo o conteúdo presente neste projeto é **fictício** e utilizado exclusivamente para fins de aprendizado e prática de desenvolvimento.
-
----
-
-## Origem do layout
-
-O site original que serviu como referência foi construído utilizando a plataforma Squarespace.
-Neste projeto, a interface foi reconstruída manualmente utilizando tecnologias de desenvolvimento web, recriando o layout como exercício de front-end.
+All content present in this project is **fictitious** and used exclusively for learning and development practice.
 
 ---
 
-## Principais melhorias em relação ao site original
+## Layout Origin
 
-O site original funciona como uma **multi-page application tradicional**, onde cada navegação recarrega a página inteira.
-
-Neste projeto foi implementada uma **SPA (Single Page Application)** utilizando React, trazendo melhorias como:
-
-- Navegação mais rápida
-- Experiência de usuário mais fluida
-- Redução de recarregamentos completos da página
-- Estrutura moderna de front-end
+The original website that served as inspiration was built using the **Squarespace** platform.
+In this project, the interface was **manually rebuilt from scratch using web development technologies**, recreating the layout as a front-end exercise.
 
 ---
 
-## Tecnologias utilizadas
+## Improvements Compared to the Original Website
 
-- React JS
-- Vite
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- React Router
-- ESLint
-- Prettier
-- Git
+The original website works as a **traditional multi-page application**, where each navigation reloads the entire page.
 
----
+In this project, the website was rebuilt as a **SPA (Single Page Application)** using React, providing improvements such as:
 
-## Estrutura do projeto
-
-O projeto foi estruturado em **componentes reutilizáveis utilizando React**, com separação clara entre:
-
-- Layout principal
-- Páginas
-- Componentes de interface
-- Estilos
-
-A navegação é gerenciada com **React Router**, permitindo transições entre páginas sem recarregar a aplicação.
+* Faster navigation
+* Smoother user experience
+* Reduced full page reloads
+* More modern front-end architecture
 
 ---
 
-## Objetivo do projeto
+## Technologies Used
 
-Este projeto foi desenvolvido como **exercício prático de front-end**, com foco em:
-
-- Estruturação de aplicações React
-- Criação de interfaces institucionais
-- Implementação de Single Page Applications
-- Organização de código
-- Boas práticas de formatação e linting
-- Versionamento com Git
-
----
-
-## Observação sobre o desenvolvimento
-
-Parte do desenvolvimento foi realizada com **assistência de ferramentas de inteligência artificial**, utilizadas como apoio para aprendizado, solução de problemas e otimização do código.
+* React JS
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Router
+* ESLint
+* Prettier
+* Git
 
 ---
 
-## Aviso
+## Project Structure
 
-Este projeto **não possui qualquer vínculo com a clínica que serviu de inspiração**.
-A interface foi recriada apenas como **exercício educacional**, e todos os dados apresentados são fictícios.
+The project was structured using **reusable React components**, with clear separation between:
+
+* Main layout
+* Pages
+* UI components
+* Styles
+
+Navigation is handled with **React Router**, allowing transitions between pages without reloading the application.
 
 ---
 
-## Status do projeto
+## Project Goals
 
-Projeto concluído para fins de estudo e portfólio.
+This project was developed as a **front-end practice exercise**, focusing on:
+
+* Structuring React applications
+* Building institutional website interfaces
+* Implementing Single Page Applications
+* Code organization
+* Formatting and linting best practices
+* Version control with Git
+
+---
+
+## Development Notes
+
+Part of the development process was carried out with the **assistance of artificial intelligence tools**, used as support for learning, problem solving, and code optimization.
+
+---
+
+## Disclaimer
+
+This project **has no affiliation with the clinic that inspired the layout**.
+The interface was recreated **strictly for educational purposes**, and all data displayed in the project is fictional.
+
+---
+
+## Project Status
+
+Completed as a study and portfolio project.
