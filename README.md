@@ -21,24 +21,24 @@ The original website works as a **traditional multi-page application**, where ea
 
 In this project, the website was rebuilt as a **SPA (Single Page Application)** using React, providing improvements such as:
 
-* Faster navigation
-* Smoother user experience
-* Reduced full page reloads
-* More modern front-end architecture
+- Faster navigation
+- Smoother user experience
+- Reduced full page reloads
+- More modern front-end architecture
 
 ---
 
 ## Technologies Used
 
-* React JS
-* Vite
-* JavaScript (ES6+)
-* HTML5
-* CSS3
-* React Router
-* ESLint
-* Prettier
-* Git
+- React JS
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router
+- ESLint
+- Prettier
+- Git
 
 ---
 
@@ -46,10 +46,10 @@ In this project, the website was rebuilt as a **SPA (Single Page Application)** 
 
 The project was structured using **reusable React components**, with clear separation between:
 
-* Main layout
-* Pages
-* UI components
-* Styles
+- Main layout
+- Pages
+- UI components
+- Styles
 
 Navigation is handled with **React Router**, allowing transitions between pages without reloading the application.
 
@@ -59,18 +59,19 @@ Navigation is handled with **React Router**, allowing transitions between pages 
 
 This project was developed as a **front-end practice exercise**, focusing on:
 
-* Structuring React applications
-* Building institutional website interfaces
-* Implementing Single Page Applications
-* Code organization
-* Formatting and linting best practices
-* Version control with Git
+- Structuring React applications
+- Building institutional website interfaces
+- Implementing Single Page Applications
+- Code organization
+- Formatting and linting best practices
+- Version control with Git
 
 ---
 
 ## Development Notes
 
 Part of the development process was carried out with the **assistance of artificial intelligence tools**, used as support for learning, problem solving, and code optimization.
+Special attention was given to pixel-perfect CSS and responsive layout to faithfully reproduce the original design.
 
 ---
 
