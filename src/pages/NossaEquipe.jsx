@@ -165,6 +165,9 @@ function NossaEquipe() {
                 alt={membro.nome}
                 loading="lazy"
                 decoding="async"
+                className={
+                  index === 2 || index === 14 ? "adjusted-position" : ""
+                }
               />
             </div>
 

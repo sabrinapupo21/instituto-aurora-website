@@ -915,7 +915,7 @@ address {
     font-weight: bold;
   }
   .cta {
-    padding: 40px 20px;
+    padding: 20px 20px;
   }
 
   .cta-highlight {
@@ -924,9 +924,21 @@ address {
   }
 
   .cta .cta-btn {
-    display: inline-block;
+    padding: 20px 30px !important; /* Reduz o padding para o texto caber em uma linha */
+    font-size: 14px !important; /* Diminui levemente a fonte */
+    white-space: nowrap; /* IMPEDE o texto de quebrar linha */
+    width: auto; /* Garante que ele não tente ser 100% se não precisar */
+    max-width: 90vw; /* Segurança para não sair da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   /* ===== HERO / DESTAQUES ===== */
+  .hero {
+    padding: 60px 20px;
+    background-size: cover;
+  }
   .hero-highlight,
   .servicos-hero-highlight,
   .contato-hero-highlight {
@@ -962,7 +974,23 @@ address {
     padding: 40px 20px;
     gap: 40px;
   }
+  .locations-highlight {
+    font-size: 2.5rem;
 
+    width: 100%;
+    max-width: 100%;
+
+    margin-left: 0;
+    margin-right: 0;
+
+    text-align: center;
+
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
   .locations-section1 {
     max-width: 100%;
     padding-top: 0;
@@ -998,7 +1026,9 @@ address {
     height: 300px;
     object-fit: cover;
   }
-
+  .grid-pic img.adjusted-position {
+    object-position: 70% center;
+  }
   /* ===== SOBRE NÓS ===== */
   .foto-overlay {
     font-size: 2rem;
@@ -1019,19 +1049,59 @@ address {
   .atendimentos-container {
     flex-direction: column;
   }
-
-  .atendimentos-img img {
+  .atendimentos-img {
+    line-height: 0;
+    display: block;
     width: 100%;
-    height: auto;
     margin: 0;
+    padding: 0;
+  }
+  .atendimentos-img img {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    display: block;
+    clip-path: none;
+    object-fit: cover;
   }
 
   .atendimentos-text {
     margin-top: 0;
     padding: 20px;
   }
-
+  .atendimentos-text h2 {
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    width: 100%;
+  }
   /* ===== SERVIÇOS / SLIDER ===== */
+  .servicos-hero {
+    padding: 20px 10px;
+
+    background-size: cover;
+    background-position: center center;
+
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .servicos-hero-highlight {
+    font-size: 2.2rem !important;
+
+    letter-spacing: -0.02em;
+
+    line-height: 1.2;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
   .swiper-container img {
     height: 60vh;
   }
@@ -1044,11 +1114,49 @@ address {
   .slide-title h1 {
     font-size: 2rem;
   }
+  .atuacao-highlight {
+    height: auto;
+    padding: 60px 0;
+  }
 
-  /* ===== MÍDIA ===== */
-  .videos-grid {
-    grid-template-columns: 1fr;
-    padding: 30px 20px;
+  .servicos-curva {
+    min-height: 100px;
+  }
+
+  .servicos-curva-svg {
+    height: 25vh;
+  }
+  /* ===== CONTATO ===== */
+  .contato-hero-highlight {
+    font-size: 1.8rem !important; /* Estava 3.5rem, o que causava o excesso de linhas */
+    line-height: 1.3;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto 10px auto; /* Espaço entre as frases */
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .contato-content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .contato-hero .cta-btn {
+    padding: 23px 37px !important; /* Igual ao que usamos no CTA anterior */
+    font-size: 14px !important;
+    white-space: nowrap;
+    width: fit-content; /* Garante que ele não estique para os lados */
+    margin: 30px auto 0 auto !important; /* Centraliza e dá espaço do texto */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contato-hero {
+    min-height: 70vh; /* Ajusta a altura da seção para o mobile não ficar vazio demais */
+    padding: 40px 15px;
   }
 
   /* ===== FOOTER ===== */
